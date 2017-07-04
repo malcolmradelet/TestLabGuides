@@ -37,12 +37,10 @@ This document contains instructions for setting up the Windows Server 2012 R2 Ba
 The following instructions are for configuring the Windows Server 2012 R2 Base Configuration test lab. Individual computers are needed to separate the services provided on the network and to clearly show the desired functionality. This configuration is neither designed to reflect best practices nor does it reflect a desired or recommended configuration for a production network. The configuration, including IP addresses and all other configuration parameters, is designed only to work on a separate test lab network.
 
 >Note: 
-```markdown
-If you are able to work from a computer-based copy of this document during the lab exercises, and you are running virtual machines in Hyper-V, leverage the Hyper-V clipboard integration feature to paste commands. This will minimize potential errors with mistyped command strings.
-* Highlight and right-click a command from this document listed in bold text.
-* Click Copy.
-* From the virtual machine menu bar, click Clipboard, and then click Type clipboard text.
-```
+>If you are able to work from a computer-based copy of this document during the lab exercises, and you are running virtual machines in Hyper-V, leverage the Hyper-V clipboard integration feature to paste commands. This will minimize potential errors with mistyped command strings.
+>* Highlight and right-click a command from this document listed in bold text.
+>* Click Copy.
+>* From the virtual machine menu bar, click Clipboard, and then click Type clipboard text.
 
 #### Test lab overview
 The Windows Server 2012 R2 Base Configuration test lab consists of the following:
