@@ -37,14 +37,12 @@ This document contains instructions for setting up the Windows Server 2012 R2 Ba
 The following instructions are for configuring the Windows Server 2012 R2 Base Configuration test lab. Individual computers are needed to separate the services provided on the network and to clearly show the desired functionality. This configuration is neither designed to reflect best practices nor does it reflect a desired or recommended configuration for a production network. The configuration, including IP addresses and all other configuration parameters, is designed only to work on a separate test lab network.
 
 >Note: 
-
 >If you are able to work from a computer-based copy of this document during the lab exercises, and you are running virtual machines in Hyper-V, leverage the Hyper-V clipboard integration feature to paste commands. This will minimize potential errors with mistyped command strings.
+* Highlight and right-click a command from this document listed in bold text.
+* Click Copy.
+* From the virtual machine menu bar, click Clipboard, and then click Type clipboard text.
 
->* Highlight and right-click a command from this document listed in bold text.
->* Click Copy.
->* From the virtual machine menu bar, click Clipboard, and then click Type clipboard text.
-
-Test lab overview
+#### Test lab overview
 The Windows Server 2012 R2 Base Configuration test lab consists of the following:
 * One computer running Windows Server 2012 R2 named DC1 that is configured as an intranet domain controller, Domain Name System (DNS) server, and Dynamic Host Configuration Protocol (DHCP) server.
 * One intranet member server running Windows Server 2012 R2 named APP1 that is configured as a general application and web server.
