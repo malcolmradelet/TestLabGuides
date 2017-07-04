@@ -34,18 +34,18 @@ The following instructions are for configuring the Windows Server 2012 R2 Base C
   Note: 
 If you are able to work from a computer-based copy of this document during the lab exercises, and you are running virtual machines in Hyper-V, leverage the Hyper-V clipboard integration feature to paste commands. This will minimize potential errors with mistyped command strings.
 
-•	Highlight and right-click a command from this document listed in bold text.
-•	Click Copy.
-•	From the virtual machine menu bar, click Clipboard, and then click Type clipboard text.
+* Highlight and right-click a command from this document listed in bold text.
+* Click Copy.
+* From the virtual machine menu bar, click Clipboard, and then click Type clipboard text.
 
 Test lab overview
 The Windows Server 2012 R2 Base Configuration test lab consists of the following:
-•	One computer running Windows Server 2012 R2 named DC1 that is configured as an intranet domain controller, Domain Name System (DNS) server, and Dynamic Host Configuration Protocol (DHCP) server.
-•	One intranet member server running Windows Server 2012 R2 named APP1 that is configured as a general application and web server.
-•	One member client computer running Windows 8.1 named CLIENT1 that will switch between Internet and intranet subnets.
-•	One intranet member server running Windows Server 2012 R2 named EDGE1 that is configured as an Internet edge server.
-•	One standalone server running Windows Server 2012 R2 named INET1 that is configured as an Internet DNS server, web server, and DHCP server.
+* One computer running Windows Server 2012 R2 named DC1 that is configured as an intranet domain controller, Domain Name System (DNS) server, and Dynamic Host Configuration Protocol (DHCP) server.
+* One intranet member server running Windows Server 2012 R2 named APP1 that is configured as a general application and web server.
+* One member client computer running Windows 8.1 named CLIENT1 that will switch between Internet and intranet subnets.
+* One intranet member server running Windows Server 2012 R2 named EDGE1 that is configured as an Internet edge server.
+* One standalone server running Windows Server 2012 R2 named INET1 that is configured as an Internet DNS server, web server, and DHCP server.
 The Windows Server 2012 R2 Base Configuration test lab consists of two subnets that simulate the following:
-•	The Internet, referred to as the Internet subnet (131.107.0.0/24).
-•	An intranet, referred to as the Corpnet subnet (10.0.0.0/24), separated from the Internet subnet by EDGE1.
+* The Internet, referred to as the Internet subnet (131.107.0.0/24).
+* An intranet, referred to as the Corpnet subnet (10.0.0.0/24), separated from the Internet subnet by EDGE1.
 Computers on each subnet connect using a physical hub, switch, or virtual switch. See the following figure for the configuration of the Windows Server 2012 R2 Base Configuration test lab.
