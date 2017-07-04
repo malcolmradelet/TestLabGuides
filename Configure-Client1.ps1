@@ -1,0 +1,1 @@
+﻿Add-Computer  -DomainName corp.contoso.com
