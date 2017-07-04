@@ -56,3 +56,21 @@ The Windows Server 2012 R2 Base Configuration test lab consists of two subnets t
 Computers on each subnet connect using a physical hub, switch, or virtual switch. See the following figure for the configuration of the Windows Server 2012 R2 Base Configuration test lab.
 
 ![Figure 1](media/Server%202012%20R2%20Base%20Configuration.png)
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
