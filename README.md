@@ -38,9 +38,9 @@ The following instructions are for configuring the Windows Server 2012 R2 Base C
 
 >Note: 
 >If you are able to work from a computer-based copy of this document during the lab exercises, and you are running virtual machines in Hyper-V, leverage the Hyper-V clipboard integration feature to paste commands. This will minimize potential errors with mistyped command strings.
-* Highlight and right-click a command from this document listed in bold text.
-* Click Copy.
-* From the virtual machine menu bar, click Clipboard, and then click Type clipboard text.
+>* Highlight and right-click a command from this document listed in bold text.
+>* Click Copy.
+>* From the virtual machine menu bar, click Clipboard, and then click Type clipboard text.
 
 #### Test lab overview
 The Windows Server 2012 R2 Base Configuration test lab consists of the following:
