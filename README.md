@@ -52,4 +52,7 @@ The Windows Server 2012 R2 Base Configuration test lab consists of the following
 The Windows Server 2012 R2 Base Configuration test lab consists of two subnets that simulate the following:
 * The Internet, referred to as the Internet subnet (131.107.0.0/24).
 * An intranet, referred to as the Corpnet subnet (10.0.0.0/24), separated from the Internet subnet by EDGE1.
+
 Computers on each subnet connect using a physical hub, switch, or virtual switch. See the following figure for the configuration of the Windows Server 2012 R2 Base Configuration test lab.
+
+![Figure 1](Server 2012 R2 Base Configuration.png)
